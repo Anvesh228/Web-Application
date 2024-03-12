@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+   Author: azg0192		Date: 03/10/2024   
+-->
+<customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/anves/OneDrive/Desktop/Assignment2/order_sch.xsd">
+	<customer custID="cust201">
+		<name title="Mr.">Ronaldo</name>
+		<address><![CDATA[
+         122 W Blvd Ave
+         Dubai, UAE  3420
+         ]]></address>
+		<phone>(144) 213-6543</phone>
+		<email>sui@example.net</email>
+		<orders>
+			<order orderID="or1089" orderBy="cust101">
+				<orderDate>2016-08-11</orderDate>
+				<items>
+					<item itemNumber="WM100DP">
+						<itemPrice saleItem="N">39.95</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+					<item itemNumber="WM102C">
+						<itemPrice saleItem="Y">19.90</itemPrice>
+						<itemQty>2</itemQty>
+					</item>
+				</items>
+			</order>
+		</orders>
+	</customer>
+	<customer custID="cust202">
+		<name title="Mr.">Messi</name>
+		<address><![CDATA[
+         193 Kans Blvd
+         Great Britan, AL 67110
+         ]]></address>
+		<phone>(123) 456-7685</phone>
+		<email>messi@example.net</email>
+		<orders>
+			<order orderID="or1021" orderBy="cust202">
+				<orderDate>2017-08-01</orderDate>
+				<items>
+					<item itemNumber="WM100PL">
+						<itemPrice>29.45</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+					<item itemNumber="WM105L">
+						<itemPrice>91.45</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+				</items>
+			</order>
+			<order orderID="or1122" orderBy="cust202">
+				<orderDate>2017-10-01</orderDate>
+				<items>
+					<item itemNumber="H115E">
+						<itemPrice saleItem="Y">14.70</itemPrice>
+						<itemQty>2</itemQty>
+					</item>
+					<item itemNumber="H115F">
+						<itemPrice saleItem="N">41.85</itemPrice>
+						<itemQty>1</itemQty>
+					</item>
+				</items>
+			</order>
+		</orders>
+	</customer>
+	<customer custID="cust203">
+		<name>Al Nasar</name>
+		<address><![CDATA[
+         234 Main Magnolia Woods
+         Lake Hills, EI 41030
+         ]]></address>
+		<phone>(334) 213-4356</phone>
+		<orders>
+			<order orderID="or1120" orderBy="cust203">
+				<orderDate>2017-09-15</orderDate>
+				<items>
+					<item itemNumber="WM140P">
+						<itemPrice>87.00</itemPrice>
+						<itemQty>2</itemQty>
+					</item>
+				</items>
+			</order>
+		</orders>
+	</customer>
+</customers>
